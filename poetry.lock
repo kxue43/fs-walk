@@ -1429,22 +1429,6 @@ numpy = ["nptyping (>=2.5)"]
 testing = ["covdefaults (>=2.3)", "coverage (>=7.4.4)", "defusedxml (>=0.7.1)", "diff-cover (>=9)", "pytest (>=8.1.1)", "pytest-cov (>=5)", "sphobjinv (>=2.3.1)", "typing-extensions (>=4.11)"]
 
 [[package]]
-name = "sphinx-click"
-version = "6.0.0"
-description = "Sphinx extension that automatically documents click applications"
-optional = false
-python-versions = ">=3.8"
-files = [
-    {file = "sphinx_click-6.0.0-py3-none-any.whl", hash = "sha256:1e0a3c83bcb7c55497751b19d07ebe56b5d7b85eb76dd399cf9061b497adc317"},
-    {file = "sphinx_click-6.0.0.tar.gz", hash = "sha256:f5d664321dc0c6622ff019f1e1c84e58ce0cecfddeb510e004cf60c2a3ab465b"},
-]
-
-[package.dependencies]
-click = ">=8.0"
-docutils = "*"
-sphinx = ">=4.0"
-
-[[package]]
 name = "sphinx-copybutton"
 version = "0.5.2"
 description = "Add a copy button to each of your code cells."
@@ -1705,4 +1689,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "50a2ab774558caf218f3db30bc35730bb619a02e2e5aacb46f04e8c7c5e123d2"
+content-hash = "b654b8ab9da1a1b4fd5a76a63ea8c97162a1964232c4550e8840ac70f2d52c57"
